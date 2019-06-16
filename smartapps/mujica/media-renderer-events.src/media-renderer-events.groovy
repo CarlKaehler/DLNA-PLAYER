@@ -23,7 +23,7 @@ import java.security.InvalidKeyException;
  
 definition(
 	name: "Media Renderer Events ",
-	namespace: "smartthings",
+	namespace: "mujica",
 	author: "SmartThings",
 	description: "Play a sound,Radionomy station or custom message through your MediaRenderer,Sonos when the mode changes or other events occur.",
 	category: "SmartThings Labs",
