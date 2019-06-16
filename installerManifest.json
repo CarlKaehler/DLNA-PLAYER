@@ -1,0 +1,38 @@
+{
+    "namespace": "mujica",
+    "repoOwner": "Carl Kaehler",
+    "repoName": "DLNA-PLAYER",
+    "repoBranch": "master",
+    "name": "DLNA Player",
+    "author": "Carl Kaehler",
+    "description": "",
+    "category": "My Apps",
+    "bannerUrl": "",
+    "forumUrl": "",
+    "docUrl": "",
+    "releaseType": "production",
+    "keywords": [""],
+    "notes": "Nothing to show here (yet)",
+    "smartApps": {
+        "parent": {
+            "name": "MediaRenderer Connect",
+            "iconUrl": "",
+            "published": true,
+            "oAuth": false,
+            "appSettings": {},
+            "version": "2.1.0",
+            "appUrl": "smartapps/mujica/mediarenderer-connect.src/mediarenderer-connect.groovy"
+        }
+    },
+    "deviceHandlers": [{
+            "name": "MediaRenderer Player",
+            "iconUrl": "",
+            "published": true,
+            "oAuth": false,
+            "appUrl": "devicetypes/mujica/mediarenderer-player.src/mediarenderer-player.groovy",
+            "appSettings": {},
+            "version": "2.5.2",
+            "optional": false
+        }
+    ]
+}
